@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.first{
+    width: 300px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+    gap: 20px;
+}
+
+.first p{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+    font-size: 40px;
+    text-align: center;
+}
+
+.check{
+    width: 120px;
+    height: 70px;
+    background-color: lightgreen;
+    color: rgb(60, 156, 246);
+    text-align: center;
+    border: 0;
+    border-radius: 20%;
+}
+
+.answer{
+    width: 120px;
+    height: 60px;
+    background-color: red;
+    color: rgb(255, 204, 21);
+    text-align: center;
+}
